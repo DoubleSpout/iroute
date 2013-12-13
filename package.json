@@ -25,7 +25,7 @@
 
   "scripts": {
     "install": "node-gyp rebuild",
-    "test": "node ./test/main_test.js"
+    "test": "node ./samples/test/main_test.js"
   },
   "os": [
     "macos",
