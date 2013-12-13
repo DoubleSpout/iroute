@@ -1,0 +1,39 @@
+{
+  "name": "iroute",
+  "version": "0.3.1",
+  "main": "index.js",
+  "description": "High performance nodejs route with c++",
+  "keywords": [
+    "route",
+    "libuv",
+    "asynchronous",
+    "non-block"
+  ],
+  "author": {
+    "name": "doublespout",
+    "email": "snoopyxdy@163.com"
+  },
+  "homepage": "https://github.com/DoubleSpout/iroute",
+  "bugs": {
+    "url": "https://github.com/DoubleSpout/iroute/issues",
+    "email": "snoopyxdy@163.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DoubleSpout/iroute.git"
+  },
+
+  "scripts": {
+    "install": "node-gyp rebuild",
+    "test": "node ./test/main_test.js"
+  },
+  "os": [
+    "macos",
+    "linux",
+    "darwin",
+    "win32"
+  ],
+  "engines": {
+    "node": ">=0.10.0"
+  }
+}
